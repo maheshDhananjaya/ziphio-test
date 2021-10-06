@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+.header-main {
+  display: flex;
+  flex-direction:row;
+  background-color: antiquewhite;
+}
+.header-name {
+  margin-left: 300px;
+}
+
+.header-input {
+  margin-left: 300px;
+  margin-top: 25px;
+}
+
+.header-searchbtn {
+  margin-top: 28px;
+  width: 200px;
+  height: 22px;
+  color: rgb(201, 201, 216);
+  background-color: rgb(84, 84, 231);
+  margin-left: 5px;
+  border-radius: 4px;
+}
+
+.default-card {
+  background-color:gainsboro;
+  width:800px;
+  margin-left: 400px;
+  height: 65px;
+ padding: 5px;
+ margin-top:15px
+}
+
+.default-card-error {
+  background-color:rgb(231, 95, 95);
+  width:800px;
+  margin-left: 400px;
+  height: 65px;
+ padding: 5px;
+ margin-top:15px
+}
+
+
+.card {
+  background-color: gainsboro;
+  margin-top:10px;
+  height:200px;
+  width:600px;
+  margin-left: 300px;
+  display: flex;
+  flex-direction: row;
+}
+.card-detail {
+  background-color: gainsboro;
+  margin-top:10px;
+  height:400px;
+  width:800px;
+  margin-left: 300px;
+  display: flex;
+  flex-direction: row;
+}
+.card-title{
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  margin-left:-20px;
+}
+.card-year {
+  display: flex;
+  margin-left:50px;
+  margin-top: 170px;
+}
+.card-year-detail {
+  display: inline;
+  margin-left:50px;
+  margin-top: 370px;
+}
+.card-btn{
+  position: absolute;
+  display: flex;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-top: 170px;
+  margin-left:540px;
+}
+.card-img {
+  width:250px;
+  height:100px
+}
+
+.detail-btn {
+  border-radius: 4px;
+  background-color: rgb(84, 84, 231);
+}
+.card-ratings li{
+  list-style: none;
+  margin-top: 0px;
+}
